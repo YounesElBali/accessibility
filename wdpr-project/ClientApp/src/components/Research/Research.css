@@ -1,0 +1,18 @@
+﻿.Research-card {
+    margin-top:12px;
+    margin-bottom:12px;
+}
+.Research-card h2 {
+    font-size:1.25rem;
+}
+
+.card-text {
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+
+.row h2 {
+    font-size:1rem;
+}

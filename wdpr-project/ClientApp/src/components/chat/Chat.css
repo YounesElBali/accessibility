@@ -1,0 +1,37 @@
+/* Add these styles to your CSS file or style block */
+
+.Card {
+    width: 300px; /* Set the width of the card */
+    margin: 10px; /* Add margin for spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    transition: box-shadow 0.3s ease-in-out; /* Add a smooth transition for the box shadow */
+  }
+  
+  .Card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase box shadow on hover */
+  }
+  
+  .Card.Body {
+    padding: 16px; /* Add padding inside the card body */
+  }
+  
+  /* Style individual paragraphs within the card body */
+  .Card.Body p {
+    margin: 8px 0; /* Add margin to paragraphs for spacing */
+    font-size: 14px; /* Adjust font size */
+  }
+
+  #message-container {
+    overflow: scroll;
+    height: 150px;
+    width: 150px;
+    border: 5px dashed orange;
+  }
+  
+  .message-container li:last-child {
+    scroll-margin-bottom: 1px;
+  }
+  
+  
+  /* Add more styles as needed */
+  
